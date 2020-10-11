@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+
+h1,h2,h3,h4,h5,li{
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+        * {
+          margin: 0;
+        }
+        img {
+          border-radius: 50%;
+          height: 200px;
+        }
+        .flex-row {
+          display: flex;
+          flex-direction: row;
+        }
+   .margin-10{
+       margin: 10px;
+   }
+        body {
+          padding: 3%;
+        }
+    
+        .header {
+          height: 300px;
+          max-height: 300px;
+        }
+        .center {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        .container {
+          padding: 0 20%;
+        }
+        .hr-yellow {
+          border-top: 2px solid #f19f25;
+        }
+        .between {
+          display: flex;
+          justify-content: space-between;
+        }
+        .j-center{
+            display: flex;
+            justify-content: center;
+        }
+        
+    .lineContainer{
+    
+    position: relative;
+    width: 100px;
+    height: 200px;
+    }
+    .levelContainer1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    
+    z-index: 1;
+    }
+    .line{
+    
+    position: absolute;
+      height: 110px;
+    
+    left: 49px;
+    top: 10px;
+  
+   
+    
+    width: 2px;
+    }
+  .line-siyah{
+    background:linear-gradient(0,#929292, #0f090c);
+  }
+  .line-mor{
+    background:linear-gradient(0,  #0e8ce6, #ffffff);;
+  }
+ 
+    .circle{
+        display: flex;
+      position: absolute;
+      top:110px;
+      left: 24px;
+       font-size: 20px;
+       
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      
+      width: 50px;
+      height: 50px;
+      border-radius: 40px;
+    
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+      }
+      .siyah{
+        background:linear-gradient(90deg,#929292, #0f090c);
+      }
+      .mor{
+        background:linear-gradient(90deg,#007cf0,#00dfd8);
+      }
+      .title{
+          color: #00a3e7;
+          margin-bottom: 20px;
+          margin-top: 40px;
+      }
+      #skills {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#skills td, #skills th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#skills tr:nth-child(even){background-color: #f2f2f2;}
+
+#skills tr:hover {background-color: #ddd;}
+
+#skills th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+    
+    
+      </style>  
+
+</head>
+  
+ 
+  <body>
+    <div class="container">
+      <div class="header flex-row j-center">
+        <div class="center">
+          <img src="./pp.jpg" alt="Avatar" />
+        </div>
+        <div class="center ">
+          <h1 style="margin-bottom: 20px">Orkun Mert Yiğit</h1>
+          <h3>Full Stack Mern developer</h3>
+        </div>
+      </div>
+      <hr ></hr>
+      <div>
+        <div class="center levelContainer1 mt-24">
+          <h3 class="center title">Personal Profile</h3>
+
+          <div class=" lineContainer">
+            <div class=" line line-siyah"></div>
+            <div class=" circle siyah">1</div>
+          </div>
+        </div>
+
+        <h3 class="center altyazı">My name is Orkun ,I am computer science student at Akdeniz University
+            21 years old and I live in Antalya.I am freelancer full stack developer</h3>
+      </div>
+
+      <div>
+        <div class="center levelContainer1 mt-24">
+          <h3 class="center title">Work experience</h3>
+
+          <div class=" lineContainer">
+            <div class=" line line-mor"></div>
+            <div class=" circle mor " >2</div>
+          </div>
+        </div>
+
+        <h3 class="center altyazı">I have been working on react and javascript technologies for 1 year as a freelancer</h3>
+      </div>
+
+
+
+    </div>
+    <div>
+        <div class="center levelContainer1 mt-24">
+          <h3 class="center title">Key skills</h3>
+
+          <div class=" lineContainer">
+            <div class=" line line-siyah"></div>
+            <div class=" circle siyah">3</div>
+          </div>
+        </div>
+        <div class="j-center">
+ <table id="skills">
+            <tr>
+              <th>Language</th>
+              <th>Programming languages</th>
+              <th>technologies</th>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Java</td>
+              <td>Node.js</td>
+            </tr>
+            <tr>
+                <td>Turkish</td>
+                <td>Javascript</td>
+                <td>React.js</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>html-css</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>redux</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>mongodb</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>firebase</td>
+            </tr>
+         
+          </table>
+
+        </div>
+       
+        
+      </div>
+
+      <div>
+        <div class="center levelContainer1 mt-24">
+          <h3 class="center title">Contact</h3>
+
+          <div class=" lineContainer">
+            <div class=" line line-mor"></div>
+            <div class=" circle mor">4</div>
+          </div>
+        </div>
+        <div class="  flex-row j-center">
+            <div class="center margin-10">
+              
+<img src="./gmail-logo.svg" style="height: 30px; margin: 10px;"/>
+                <a href="mailto:orkunmertgs41@gmail.com">orkunmertgs41@gmail.com</a>.<br>
+            
+            </div>
+            <div class="center margin-10">
+                <img src="./telephone.svg " style="height: 30px; margin: 10px;"/>
+                <a>phone : 545 7255739</a>.<br>
+            
+             </div>
+          
+            
+            </div>
+       
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
